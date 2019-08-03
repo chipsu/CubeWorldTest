@@ -16,7 +16,7 @@ public class PlayerCamera : MonoBehaviour
 
     void Update()
     {
-        var position = _player.transform.position.normalized * _world.transform.localScale.magnitude * 2.0f;
+        var position = _player.transform.position * 2.0f;
         transform.position = Vector3.MoveTowards(transform.position, position, Time.deltaTime * Speed);
         transform.LookAt(_world.transform.position);
     }
