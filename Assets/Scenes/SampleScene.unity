@@ -393,6 +393,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   InputForce: {x: 0, y: 0, z: 0}
+  StickToGround: 0
 --- !u!1 &1370465402
 GameObject:
   m_ObjectHideFlags: 0
@@ -527,7 +528,7 @@ GameObject:
   - component: {fileID: 1430534850}
   - component: {fileID: 1430534854}
   m_Layer: 0
-  m_Name: Cube (2)
+  m_Name: Slime1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -554,7 +555,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1430534848}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1, y: 8.12, z: -2}
+  m_LocalPosition: {x: 0, y: 8.12, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 269644883}
@@ -568,12 +569,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1430534848}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 24dd5861dc23cb74d9d2296c69c2a000, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   InputForce: {x: 0, y: 0, z: 0}
+  StickToGround: 0
 --- !u!1 &1464742475
 GameObject:
   m_ObjectHideFlags: 0
@@ -674,12 +676,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1464742475}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 24dd5861dc23cb74d9d2296c69c2a000, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   InputForce: {x: 0, y: 0, z: 0}
+  StickToGround: 0
 --- !u!1001 &1666127561
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -715,12 +718,12 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: e12750da9418b664887d86992f28025e,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.000000015454312
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: e12750da9418b664887d86992f28025e,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.000000015454312
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: e12750da9418b664887d86992f28025e,
         type: 3}
@@ -735,7 +738,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: e12750da9418b664887d86992f28025e,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: -90
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: e12750da9418b664887d86992f28025e,
         type: 3}
